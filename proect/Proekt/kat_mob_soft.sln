@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35229.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kat_mob_soft", "kat_mob_soft.csproj", "{64B09705-B5FC-4DA2-99DC-38EEBE284552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{3913B960-D27C-4638-AC1E-F9D0709CAFBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{56CF9AAC-1275-4526-A7A1-899444E970DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1B72E210-9936-46B6-B118-B88DF7756093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kat_mob_soft.DAL", "..\kat_mob_soft.DAL\kat_mob_soft.DAL.csproj", "{7F6BBAAC-7EDD-46E5-BE5A-636015952038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kat_mob_soft.Domain", "..\kat_mob_soft.Domain\kat_mob_soft.Domain.csproj", "{8B34AD0F-59EE-46D1-9EA7-327C32422276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kat_mob_soft.Service", "..\kat_mob_soft.Service\kat_mob_soft.Service.csproj", "{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B09705-B5FC-4DA2-99DC-38EEBE284552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B09705-B5FC-4DA2-99DC-38EEBE284552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B09705-B5FC-4DA2-99DC-38EEBE284552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B09705-B5FC-4DA2-99DC-38EEBE284552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6BBAAC-7EDD-46E5-BE5A-636015952038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6BBAAC-7EDD-46E5-BE5A-636015952038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6BBAAC-7EDD-46E5-BE5A-636015952038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6BBAAC-7EDD-46E5-BE5A-636015952038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B34AD0F-59EE-46D1-9EA7-327C32422276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B34AD0F-59EE-46D1-9EA7-327C32422276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B34AD0F-59EE-46D1-9EA7-327C32422276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B34AD0F-59EE-46D1-9EA7-327C32422276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F6BBAAC-7EDD-46E5-BE5A-636015952038} = {3913B960-D27C-4638-AC1E-F9D0709CAFBD}
+		{8B34AD0F-59EE-46D1-9EA7-327C32422276} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
+		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0} = {1B72E210-9936-46B6-B118-B88DF7756093}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B58A5D70-FDE1-412A-B611-6D10A96D5A08}
+	EndGlobalSection
+EndGlobal

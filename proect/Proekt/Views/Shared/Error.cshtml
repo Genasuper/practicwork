@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "_Layout";
+    var requestId = ViewData["RequestId"] as string;
+}
+
+<section class="container" style="padding:40px 0;">
+    <h1>Произошла ошибка</h1>
+    <p>Приносим извинения — что-то пошло не так.</p>
+
+    @if (!string.IsNullOrEmpty(requestId))
+    {
+        <p><strong>Request ID:</strong> @requestId</p>
+        <p>Сообщите этот идентификатор администратору при обращении в техподдержку.</p>
+    }
+</section>

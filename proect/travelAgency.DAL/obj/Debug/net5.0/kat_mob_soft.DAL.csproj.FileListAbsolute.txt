@@ -1,0 +1,15 @@
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CopyComplete
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb

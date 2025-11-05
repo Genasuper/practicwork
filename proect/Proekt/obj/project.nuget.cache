@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "HSqI0Gk6nGg=",
+  "success": false,
+  "projectFilePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\Proekt\\kat_mob_soft.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\kat_mob_soft.Service\\kat_mob_soft.Service.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "projectPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\Proekt\\kat_mob_soft.csproj",
+      "filePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\Proekt\\kat_mob_soft.csproj",
+      "libraryId": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\kat_mob_soft.Service\\kat_mob_soft.Service.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\kat_mob_soft.Domain\\kat_mob_soft.Domain.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "projectPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\Proekt\\kat_mob_soft.csproj",
+      "filePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\Proekt\\kat_mob_soft.csproj",
+      "libraryId": "D:\\Users\\tmu11\\Desktop\\practicwork\\proect\\kat_mob_soft.Domain\\kat_mob_soft.Domain.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

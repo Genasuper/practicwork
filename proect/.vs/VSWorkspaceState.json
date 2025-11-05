@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\kat_mob_soft",
+    "\\kat_mob_soft.DAL",
+    "\\kat_mob_soft.Domain",
+    "\\kat_mob_soft.Service",
+    "\\kat_mob_soft\\obj",
+    "\\kat_mob_soft\\Properties",
+    "\\kat_mob_soft\\Views",
+    "\\kat_mob_soft\\Views\\Home",
+    "\\kat_mob_soft\\wwwroot"
+  ],
+  "SelectedNode": "\\kat_mob_soft\\kat_mob_soft.sln",
+  "PreviewInSolutionExplorer": false
+}

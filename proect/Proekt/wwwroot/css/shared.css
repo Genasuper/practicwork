@@ -1,0 +1,281 @@
+﻿/* shared.css */
+
+/* Универсальные настройки для всей страницы */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* плавная прокрутка */
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+/* Все элементы и их псевдоэлементы наследуют box-sizing */
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Основные параметры тела документа */
+body {
+    min-height: 100vh; /* чтобы занимало всю высоту экрана */
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9fb;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Контейнер для центрирования содержимого */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    a:hover {
+        color: #0078ff;
+    }
+
+/* Кнопки */
+button, .btn {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+/* === ЛОГОТИП САЙТА === */
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+    .logo a {
+        color: #000;
+        text-decoration: none;
+    }
+
+.logo-main {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0078ff; /* синий акцент — в методичке основной цвет темы */
+    text-transform: uppercase;
+}
+
+.logo-sub {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    margin-top: 3px;
+    letter-spacing: 0.4px;
+}
+
+/* Если логотип будет с иконкой слева */
+.logo img {
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+/* === ШАПКА САЙТА === */
+.site-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Верхняя часть шапки */
+.header-top {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header-top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Кнопки справа */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #0078ff;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background-color: #005ec4;
+    }
+
+.btn-ghost {
+    background-color: transparent;
+    color: #0078ff;
+    border: 1px solid #0078ff;
+}
+
+    .btn-ghost:hover {
+        background-color: #0078ff;
+        color: #fff;
+    }
+
+/* вместо: background: url('../images/header-bg.jpg') center/cover no-repeat; */
+.header-bottom {
+    position: relative;
+    background-image: url('/images/header-bg.jpg'); /* безопасный абсолютный путь от wwwroot */
+    background-position: center;
+    background-size: cover; /* вот здесь — cover */
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+
+    /* Полупрозрачный слой для затемнения картинки */
+    .header-bottom::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+    }
+
+.header-bottom-inner {
+    position: relative;
+    z-index: 2;
+}
+
+/* Главное меню */
+.main-nav {
+    margin-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+    .nav-list li a {
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        transition: color 0.2s ease;
+    }
+
+        .nav-list li a:hover {
+            color: #ffd54f;
+        }
+
+/* Поисковая форма */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .search-form input[type="search"] {
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+    }
+
+    .search-form button {
+        background: #0078ff;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 6px 10px;
+        cursor: pointer;
+        transition: background 0.2s ease;
+    }
+
+        .search-form button:hover {
+            background: #005ec4;
+        }
+
+/* Гамбургер для мобильного меню */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+    .hamburger span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 2px;
+    }
+
+/* Адаптивное поведение */
+@media (max-width: 900px) {
+    .nav-list {
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 12px 0;
+        border-radius: 8px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .auth-buttons {
+        gap: 6px;
+    }
+}
+body {
+    min-height: 100vh;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f9f9fb;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s ease; /* плавный переход при изменении цвета */
+}
+
+.site-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent; /* изначально прозрачная */
+    transition: background-color 0.3s ease; /* плавный переход при прокрутке */
+}
+

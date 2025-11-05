@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "kat_mob_soft.Domain/1.0.0": {
+        "runtime": {
+          "kat_mob_soft.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kat_mob_soft.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
