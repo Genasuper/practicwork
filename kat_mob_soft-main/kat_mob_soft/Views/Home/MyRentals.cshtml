@@ -1,0 +1,41 @@
+﻿@model List<PraticProect.Models.Rental>
+@{
+    ViewData["Title"] = "Мои аренды";
+}
+
+<div class="container">
+    <h1>Мои аренды</h1>
+
+    <form method="get" class="mb-4">
+        <div class="input-group" style="max-width: 400px;">
+            <input type="email" name="email" class="form-control" placeholder="Введите ваш email" required>
+            <button class="btn btn-primary" type="submit">Найти аренды</button>
+        </div>
+    </form>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var rental in Model)
+            {
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@rental.Equipment?.Name</h5>
+                            <p class="card-text">
+                                <strong>Период:</strong> @rental.StartDate.ToString("dd.MM.yyyy") - @rental.EndDate.ToString("dd.MM.yyyy")<br>
+                                <strong>Стоимость:</strong> @rental.TotalPrice.ToString("N0") руб.<br>
+                                <strong>Статус:</strong> <span class="badge bg-success">@rental.Status</span><br>
+                                <strong>Email:</strong> @rental.UserEmail
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else if (!string.IsNullOrEmpty(Context.Request.Query["email"]))
+    {
+        <div class="alert alert-info">Аренды не найдены для указанного email.</div>
+    }
+</div>

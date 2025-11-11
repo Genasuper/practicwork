@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3k/quofYOPc=",
+  "dgSpecHash": "QmRiDawlKc8=",
   "success": true,
   "projectFilePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
-  "expectedPackageFiles": [
-    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "D:\\Users\\tmu11\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

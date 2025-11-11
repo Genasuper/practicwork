@@ -1,0 +1,236 @@
+﻿/* Секция Услуги */
+.services-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+.services-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.services-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.services-track {
+    display: flex;
+    transition: transform 0.3s ease;
+    gap: 2rem;
+}
+
+.service-card {
+    flex: 0 0 calc(33.333% - 2rem);
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+.service-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+    .service-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+.service-card:hover .service-image img {
+    transform: scale(1.05);
+}
+
+.service-content {
+    padding: 1.5rem;
+}
+
+.service-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.service-description {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Стрелочки */
+.arrow {
+    background: #ff6b35;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .arrow:hover {
+        background: #e55a2b;
+    }
+
+.left-arrow {
+    order: 1;
+}
+
+.right-arrow {
+    order: 3;
+}
+
+/* Секция Контакты */
+.contacts-section {
+    padding: 4rem 0;
+    background: white;
+}
+
+.contacts-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+    .contact-item:hover {
+        transform: translateY(-3px);
+    }
+
+.contact-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.contact-details h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.contact-details p {
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Секция Карта */
+.map-section {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+}
+
+.map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Стили для временной карты */
+.map-placeholder {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.map-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.95);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+    .map-overlay h3 {
+        color: #ff6b35;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .map-overlay p {
+        color: #333;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .service-card {
+        flex: 0 0 calc(100% - 2rem);
+    }
+
+    .services-container {
+        gap: 0.5rem;
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .map-overlay {
+        padding: 1rem;
+    }
+
+        .map-overlay h3 {
+            font-size: 1.2rem;
+        }
+
+        .map-overlay p {
+            font-size: 1rem;
+        }
+}

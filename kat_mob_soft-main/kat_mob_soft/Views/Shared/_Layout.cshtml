@@ -1,43 +1,59 @@
-﻿@using Microsoft.AspNetCore.Identity
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RentPhoto</title>
-    <link rel="stylesheet" href="~/css/shared.css" />
-    <script src="~/js/shared_script.js" defer></script>
+    <title>@ViewData["Title"] - PhotoRental</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
-    <header id="header">
-        <!-- Верхняя часть шапки -->
-        <div class="top-header">
-            <div class="logo">RentPhoto</div>
-            <div class="auth-buttons">
-                <button class="btn-login">Войти</button>
-                <button class="btn-register">Зарегистрироваться</button>
+    <!-- Верхняя шапка -->
+    <header class="header-top">
+        <div class="container">
+            <div class="header-top-content">
+                <div class="logo">
+                    <a href="/">PhotoRental</a>
+                </div>
+                <div class="header-buttons">
+                    <button class="btn-login">Войти</button>
+                    <button class="btn-register">Зарегистрироваться</button>
+                </div>
             </div>
         </div>
-
-        <!-- Центральная часть -->
-        <div class="center-header">
-            <img src="~/images/header-photo.jpg" alt="Фототехника в аренду" class="header-image" />
-        </div>
-
-        <!-- Нижняя часть шапки -->
-        <nav class="bottom-header">
-            <ul class="menu">
-                <li><a asp-controller="Home" asp-action="Index">Главная</a></li>
-                <li><a asp-controller="Home" asp-action="SiteInformation">О нас</a></li>
-                <li><a asp-controller="Catalog" asp-action="Index">Каталог</a></li>
-                <li><a asp-controller="Home" asp-action="Contacts">Контакты</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <div class="container">
-        @RenderBody()
+    <!-- Изображение под верхней шапкой -->
+    <div class="header-image">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Профессиональная фотостудия" />
     </div>
+    <!-- Нижняя шапка с меню -->
+    <nav class="header-bottom" id="mainNav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/Home/Equipment">Каталог</a></li>
+                <li><a href="/Home/About">О нас</a></li>
+                <li><a href="/Home/SiteInformation">Услуги</a></li>
+                <li><a href="/Home/MyRentals">Мои аренды</a></li>
+                <li><a href="/Home/Contact">Контакты</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="body-container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/shared_scripts.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

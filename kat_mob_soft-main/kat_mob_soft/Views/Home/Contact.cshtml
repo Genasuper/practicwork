@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+}
+
+<div class="container">
+    <h1>Контакты</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Наши контакты</h3>
+            <p><strong>Адрес:</strong> г. Москва, ул. Фотографов, д. 123</p>
+            <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+            <p><strong>Email:</strong> info@photorental.ru</p>
+            <p><strong>Режим работы:</strong> Пн-Пт: 9:00-21:00, Сб-Вс: 10:00-20:00</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Форма обратной связи</h3>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Ваше имя</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Сообщение</label>
+                    <textarea class="form-control" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>

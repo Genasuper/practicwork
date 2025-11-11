@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PraticProect/1.0.0": {
+        "dependencies": {
+          "TravelAgency.Domain": "1.0.0",
+          "TravelAgency.Service": "1.0.0"
+        },
+        "runtime": {
+          "PraticProect.dll": {}
+        }
+      },
+      "TravelAgency.Domain/1.0.0": {
+        "runtime": {
+          "TravelAgency.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TravelAgency.Service/1.0.0": {
+        "dependencies": {
+          "TravelAgency.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TravelAgency.Service.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PraticProect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TravelAgency.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TravelAgency.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
