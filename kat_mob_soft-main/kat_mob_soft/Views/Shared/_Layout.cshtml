@@ -4,101 +4,40 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>@ViewData["Title"] - Каталог мобильных приложений</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
-
-    <meta name="description" content="Каталог мобильных приложений — обзоры, категории и рекомендации" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RentPhoto</title>
+    <link rel="stylesheet" href="~/css/shared.css" />
+    <script src="~/js/shared_script.js" defer></script>
 </head>
 <body>
-    <header class="site-header">
-        <div class="header-top">
-            <div class="container header-top-inner">
-                <div class="logo">
-                    <a asp-area="" asp-controller="Home" asp-action="SiteInformation">
-                        <span class="logo-main">AppCatalog</span>
-                        <small class="logo-sub">каталог мобильных приложений</small>
-                    </a>
-                </div>
-
-                <div class="auth-buttons">
-                    <div class="auth-buttons">
-                        <a class="btn btn-primary" href="#">Войти</a>
-                        <a class="btn btn-ghost" href="#">Зарегистрироваться</a>
-                    </div>
-
-                </div>
+    <header id="header">
+        <!-- Верхняя часть шапки -->
+        <div class="top-header">
+            <div class="logo">RentPhoto</div>
+            <div class="auth-buttons">
+                <button class="btn-login">Войти</button>
+                <button class="btn-register">Зарегистрироваться</button>
             </div>
         </div>
 
-        <div class="header-bottom">
-            <div class="container header-bottom-inner">
-                <nav class="main-nav" role="navigation" aria-label="Главное меню">
-                    <ul class="nav-list">
-                        <li><a asp-area="" asp-controller="Home" asp-action="SiteInformation">Главная</a></li>
-                        <li><a asp-area="" asp-controller="Catalog" asp-action="Index">Каталог</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="About">О нас</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Services">Услуги</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Contacts">Контакты</a></li>
-                    </ul>
-                </nav>
-
-                <div class="header-actions">
-                    <form asp-area="" asp-controller="Catalog" asp-action="Search" method="get" class="search-form">
-                        <input type="search" name="q" placeholder="Поиск приложений..." aria-label="Поиск по каталогу" />
-                        <button type="submit" class="btn-icon" aria-label="Искать">🔍</button>
-                    </form>
-
-                    <button id="side-menu-button-click-to-hide" class="hamburger" aria-label="Открыть меню">
-                        <span></span><span></span><span></span>
-                    </button>
-                </div>
-            </div>
+        <!-- Центральная часть -->
+        <div class="center-header">
+            <img src="~/images/header-photo.jpg" alt="Фототехника в аренду" class="header-image" />
         </div>
+
+        <!-- Нижняя часть шапки -->
+        <nav class="bottom-header">
+            <ul class="menu">
+                <li><a asp-controller="Home" asp-action="Index">Главная</a></li>
+                <li><a asp-controller="Home" asp-action="SiteInformation">О нас</a></li>
+                <li><a asp-controller="Catalog" asp-action="Index">Каталог</a></li>
+                <li><a asp-controller="Home" asp-action="Contacts">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main role="main">
+    <div class="container">
         @RenderBody()
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <div class="footer-col">
-                <h4>AppCatalog</h4>
-                <p>Каталог мобильных приложений: обзоры, категории, подборки и рейтинги.</p>
-            </div>
-            <div class="footer-col">
-                <h5>Меню</h5>
-                <ul>
-                    <li><a asp-area="" asp-controller="Catalog" asp-action="Index">Каталог</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">О нас</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contacts">Контакты</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h5>Контакты</h5>
-                <address>
-                    г. Тирасполь<br />
-                    E-mail: info@appcatalog.local
-                </address>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <small>© @(DateTime.Now.Year) AppCatalog — Все права защищены</small>
-            </div>
-        </div>
-    </footer>
-
-   
-
-    <script src="~/js/shared_script.js" asp-append-version="true"></script>
-    <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
-    <script src="~/js/home_script.js" asp-append-version="true"></script>
+    </div>
 </body>
 </html>

@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B34AD0F-59EE-46D1-9EA7-327C32422276}|..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.domain\\travelagency.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|kat_mob_soft.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|kat_mob_soft.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\js\\shared_scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +41,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:06:33.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SiteInformation.cshtml",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\SiteInformation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SiteInformation.cshtml",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\SiteInformation.cshtml",
+              "RelativeToolTip": "Views\\Home\\SiteInformation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T13:05:41.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "shared_scripts.js",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\shared_scripts.js",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
+              "RelativeToolTip": "wwwroot\\js\\shared_scripts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-06T13:05:06.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shared.css",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css",
+              "RelativeToolTip": "wwwroot\\css\\shared.css",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-06T13:04:34.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T13:03:43.019Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -37,12 +126,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -50,13 +135,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T13:29:29.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T13:29:29.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "kat_mob_soft.csproj",
+              "DocumentIndex": 6,
+              "Title": "PraticProect.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\PraticProect.csproj",
               "RelativeDocumentMoniker": "PraticProect.csproj",
               "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\PraticProect.csproj",
