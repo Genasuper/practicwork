@@ -1,7 +1,7 @@
 ﻿// Основные скрипты для сайта
 console.log('PhotoRental platform initialized');
 
-// Обработчики для кнопок входа и регистрации
+// УДАЛИТЕ ЭТОТ КОД:
 document.addEventListener('DOMContentLoaded', function () {
     // Кнопки авторизации
     const loginBtn = document.querySelector('.btn-login');
@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('Функция регистрации будет доступна скоро');
         });
     }
+});
 
     // Плавная прокрутка для внутренних ссылок
     const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');

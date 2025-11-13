@@ -73,3 +73,32 @@
             margin-bottom: 1rem;
         }
 </style>
+<!-- Секция "Написать сообщение" -->
+<section class="contact-message-section">
+    <div class="container">
+        <h2>Написать сообщение</h2>
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="message-form">
+                <div class="form-row">
+                    <div class="input-group">
+                        <input type="text" id="message-name" required placeholder=" ">
+                        <label for="message-name">Ваше имя</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="message-email" required placeholder=" ">
+                        <label for="message-email">Ваш email</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="message-subject" required placeholder=" ">
+                    <label for="message-subject">Тема сообщения</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message-text" required placeholder=" " rows="5"></textarea>
+                    <label for="message-text">Ваше сообщение</label>
+                </div>
+                <button type="submit" class="btn-send-message">Отправить сообщение</button>
+            </form>
+        </div>
+    </div>
+</section>

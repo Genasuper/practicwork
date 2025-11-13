@@ -3,78 +3,17 @@
   "WorkspaceRootPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\equipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\equipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\js\\shared_scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\home_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\js\\home_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\myrentals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\myrentals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\rent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}|..\\kat_mob_soft.Service\\TravelAgency.Service.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.service\\travelagency.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8B34AD0F-59EE-46D1-9EA7-327C32422276}|..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B34AD0F-59EE-46D1-9EA7-327C32422276}|..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.domain\\travelagency.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}|..\\kat_mob_soft.Service\\TravelAgency.Service.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.service\\travelagency.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F6BBAAC-7EDD-46E5-BE5A-636015952038}|..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.dal\\travelagency.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -87,271 +26,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T13:03:43.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "home.css",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\home.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\home.css",
-              "RelativeToolTip": "wwwroot\\css\\home.css",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAkwOwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-11T14:53:55.604Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T13:29:29.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Equipment.cs",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Models\\Equipment.cs",
-              "RelativeDocumentMoniker": "Models\\Equipment.cs",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Models\\Equipment.cs",
-              "RelativeToolTip": "Models\\Equipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:08:39.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Rental.cs",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Models\\Rental.cs",
-              "RelativeDocumentMoniker": "Models\\Rental.cs",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Models\\Rental.cs",
-              "RelativeToolTip": "Models\\Rental.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:12:15.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAuwGQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T14:18:04.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T14:18:38.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Equipment.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Equipment.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Equipment.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Equipment.cshtml",
-              "RelativeToolTip": "Views\\Home\\Equipment.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T14:15:52.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "home_script.js",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\home_script.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\home_script.js",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\home_script.js",
-              "RelativeToolTip": "wwwroot\\js\\home_script.js",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAqwNoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-11T14:54:41.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SiteInformation.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\SiteInformation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\SiteInformation.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\SiteInformation.cshtml",
-              "RelativeToolTip": "Views\\Home\\SiteInformation.cshtml",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAuwKAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-06T13:05:41.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "shared_scripts.js",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\shared_scripts.js",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
-              "RelativeToolTip": "wwwroot\\js\\shared_scripts.js",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T13:05:06.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "shared.css",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css",
-              "RelativeToolTip": "wwwroot\\css\\shared.css",
-              "ViewState": "AgIAABMBAAAAAAAAAAAkwCkBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-06T13:04:34.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:06:33.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "site.js",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAuwHQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-11T14:58:14.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Rent.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Rent.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Rent.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Rent.cshtml",
-              "RelativeToolTip": "Views\\Home\\Rent.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAuwDcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T14:16:25.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MyRentals.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\MyRentals.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\MyRentals.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\MyRentals.cshtml",
-              "RelativeToolTip": "Views\\Home\\MyRentals.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwCgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T14:17:05.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "PraticProect.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\PraticProect.csproj",
               "RelativeDocumentMoniker": "PraticProect.csproj",
               "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\PraticProect.csproj",
               "RelativeToolTip": "PraticProect.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T13:22:11.422Z",
+              "WhenOpened": "2025-11-13T15:14:48.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TravelAgency.Service",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\kat_mob_soft.Domain\\Class1.cs",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\Class1.cs",
+              "RelativeToolTip": "..\\kat_mob_soft.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:40:03.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TravelAgency.Domain.csproj",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
+              "RelativeToolTip": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T13:48:21.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TravelAgency.Service.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "RelativeToolTip": "..\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T13:42:40.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:42:40.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TravelAgency.DAL",
+              "DocumentIndex": 4,
+              "Title": "TravelAgency.DAL.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "RelativeToolTip": "..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T13:42:14.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TravelAgency.Domain.csproj",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
-              "RelativeDocumentMoniker": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
-              "RelativeToolTip": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T13:48:21.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:42:14.843Z"
             }
           ]
         }

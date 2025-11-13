@@ -1,8 +1,11 @@
 wwwroot\css\home.css
+wwwroot\css\login_and_registration.css
+wwwroot\css\media_style.css
 wwwroot\css\shared.css
 wwwroot\favicon.ico
 wwwroot\images\about-placeholder.jpg
 wwwroot\js\home_script.js
+wwwroot\js\login_and_registration_script.js
 wwwroot\js\shared_scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

@@ -6,6 +6,8 @@
     <title>@ViewData["Title"] - PhotoRental</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
@@ -16,9 +18,17 @@
                 <div class="logo">
                     <a href="/">PhotoRental</a>
                 </div>
+
+                <!-- Гамбургер-меню -->
+                <button class="hamburger-menu" id="hamburger-menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
                 <div class="header-buttons">
-                    <button class="btn-login">Войти</button>
-                    <button class="btn-register">Зарегистрироваться</button>
+                    <button class="btn-login" id="click-to-hide">Войти</button>
+                    <button class="btn-register" id="btn-register-top">Зарегистрироваться</button>
                 </div>
             </div>
         </div>
@@ -28,6 +38,7 @@
     <div class="header-image">
         <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Профессиональная фотостудия" />
     </div>
+
     <!-- Нижняя шапка с меню -->
     <nav class="header-bottom" id="mainNav">
         <div class="container">
@@ -38,7 +49,6 @@
                 <li><a href="/Home/SiteInformation">Услуги</a></li>
                 <li><a href="/Home/MyRentals">Мои аренды</a></li>
                 <li><a href="/Home/Contact">Контакты</a></li>
-                
             </ul>
         </div>
     </nav>
@@ -50,10 +60,386 @@
         </main>
     </div>
 
+    <!-- Подвал сайта -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PhotoRental</h3>
+                    <p>Профессиональная аренда фотооборудования для ваших творческих проектов. Мы предоставляем качественную технику по доступным ценам.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">Telegram</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Меню</h4>
+                    <ul class="footer-menu">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/Home/Equipment">Каталог</a></li>
+                        <li><a href="/Home/About">О нас</a></li>
+                        <li><a href="/Home/SiteInformation">Услуги</a></li>
+                        <li><a href="/Home/MyRentals">Мои аренды</a></li>
+                        <li><a href="/Home/Contact">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <div class="contact-info">
+                        <p>📞 +7 (999) 123-45-67</p>
+                        <p>✉️ info@photorental.ru</p>
+                        <p>📍 Москва, ул. Фотостроителей, 15</p>
+                        <p>🕒 Ежедневно с 9:00 до 21:00</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul class="footer-services">
+                        <li>Аренда фотоаппаратов</li>
+                        <li>Аренда объективов</li>
+                        <li>Аренда студийного света</li>
+                        <li>Аренда аксессуаров</li>
+                        <li>Фотостудия в аренду</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 PhotoRental. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Боковое меню для мобильных -->
+    <div class="side-menu-overlay" id="side-menu-overlay"></div>
+    <nav class="side-menu" id="side-menu">
+        <div class="side-menu-header">
+            <h3>Меню</h3>
+            <button class="side-menu-close" id="side-menu-close">×</button>
+        </div>
+
+        <ul class="side-nav-menu">
+            <li><a href="/">Главная</a></li>
+            <li><a href="/Home/Equipment">Каталог</a></li>
+            <li><a href="/Home/About">О нас</a></li>
+            <li><a href="/Home/SiteInformation">Услуги</a></li>
+            <li><a href="/Home/MyRentals">Мои аренды</a></li>
+            <li><a href="/Home/Contact">Контакты</a></li>
+        </ul>
+
+        <div class="side-menu-buttons">
+            <button class="side-menu-login" id="side-menu-login">Войти</button>
+            <button class="side-menu-register" id="side-menu-register">Зарегистрироваться</button>
+        </div>
+    </nav>
+
+    <!-- Формы входа/регистрации -->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="container-form login-form" id="login-form">
+        <div class="form-container">
+            <button class="btn-close-form" id="btn-close-login">×</button>
+            <div class="form-content">
+                <h2>Вход в аккаунт</h2>
+
+                <div class="input-group">
+                    <input type="email" id="login-email" required placeholder=" ">
+                    <label for="login-email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="login-password" required placeholder=" ">
+                    <label for="login-password">Пароль</label>
+                </div>
+
+                <button type="button" class="btn-submit" id="btn-login-submit">Войти</button>
+                <a href="#" class="forgot-password">Забыли пароль?</a>
+
+                <div class="form-switch">
+                    <p>Нет аккаунта? <a href="#" class="switch-to-register">Зарегистрироваться</a></p>
+                </div>
+
+                <div id="error-messages-login"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-form register-form" id="register-form">
+        <div class="form-container">
+            <button class="btn-close-form" id="btn-close-register">×</button>
+            <div class="form-content">
+                <h2>Создать аккаунт</h2>
+
+                <div class="input-group">
+                    <input type="text" id="register-name" required placeholder=" ">
+                    <label for="register-name">Имя</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="register-email" required placeholder=" ">
+                    <label for="register-email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="register-password" required placeholder=" ">
+                    <label for="register-password">Пароль</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="register-confirm" required placeholder=" ">
+                    <label for="register-confirm">Подтвердите пароль</label>
+                </div>
+
+                <button type="button" class="btn-submit" id="btn-register-submit">Зарегистрироваться</button>
+
+                <div class="form-switch">
+                    <p>Уже есть аккаунт? <a href="#" class="switch-to-login">Войти</a></p>
+                </div>
+
+                <div id="error-messages-register"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/shared_scripts.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Скрипт для форм входа/регистрации -->
+    <script>
+        // Функция для отправки fetch-запросов
+        async function sendRequest(url, data) {
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                return await response.json();
+            } catch (error) {
+                console.error('Ошибка:', error);
+                return { success: false, errors: ['Ошибка сети'] };
+            }
+        }
+
+        // Функция отображения ошибок
+        function displayErrors(errors, containerId) {
+            const errorContainer = document.getElementById(containerId);
+            errorContainer.innerHTML = '';
+
+            errors.forEach(error => {
+                const errorElement = document.createElement('div');
+                errorElement.className = 'error-message';
+                errorElement.textContent = error;
+                errorContainer.appendChild(errorElement);
+            });
+        }
+
+        // Функция очистки формы и закрытия
+        function cleaningAndClosingForm() {
+            document.getElementById('login-form').reset();
+            document.getElementById('register-form').reset();
+            document.getElementById('error-messages-login').innerHTML = '';
+            document.getElementById('error-messages-register').innerHTML = '';
+            closeAllForms();
+        }
+
+        // Функции управления формами
+        function closeAllForms() {
+            document.getElementById('overlay').style.display = 'none';
+            document.getElementById('login-form').style.display = 'none';
+            document.getElementById('register-form').style.display = 'none';
+            document.body.style.overflow = '';
+        }
+
+        function openLoginForm() {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('login-form').style.display = 'block';
+            document.getElementById('register-form').style.display = 'none';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function openRegisterForm() {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('register-form').style.display = 'block';
+            document.getElementById('login-form').style.display = 'none';
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Функция для гамбургер-меню
+        function toggleSideMenu() {
+            const sideMenu = document.getElementById('side-menu');
+            const overlay = document.getElementById('side-menu-overlay');
+            const hamburger = document.getElementById('hamburger-menu');
+
+            sideMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+
+        // Объявляем функции как глобальные для доступа из других скриптов
+        window.openLoginForm = openLoginForm;
+        window.openRegisterForm = openRegisterForm;
+        window.closeAllForms = closeAllForms;
+        window.toggleSideMenu = toggleSideMenu;
+
+        // Инициализация при загрузке страницы
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Forms script loaded');
+
+            // Обработчики для кнопок в шапке
+            document.getElementById('click-to-hide').addEventListener('click', function(e) {
+                e.preventDefault();
+                openLoginForm();
+            });
+
+            document.getElementById('btn-register-top').addEventListener('click', function(e) {
+                e.preventDefault();
+                openRegisterForm();
+            });
+
+            // Обработчики закрытия
+            document.getElementById('btn-close-login').addEventListener('click', function(e) {
+                e.preventDefault();
+                closeAllForms();
+            });
+
+            document.getElementById('btn-close-register').addEventListener('click', function(e) {
+                e.preventDefault();
+                closeAllForms();
+            });
+
+            // Обработчики кнопок в формах
+            document.getElementById('btn-login-submit').addEventListener('click', async function(e) {
+                e.preventDefault();
+                console.log('Login button clicked');
+
+                const loginData = {
+                    Email: document.getElementById('login-email').value,
+                    Password: document.getElementById('login-password').value
+                };
+
+                console.log('Sending login request:', loginData);
+                const result = await sendRequest('/Account/Login', loginData);
+                console.log('Login response:', result);
+
+                if (result.success) {
+                    cleaningAndClosingForm();
+                    location.reload();
+                } else {
+                    displayErrors(result.errors, 'error-messages-login');
+                }
+            });
+
+            document.getElementById('btn-register-submit').addEventListener('click', async function(e) {
+                e.preventDefault();
+                console.log('Register button clicked');
+
+                const registerData = {
+                    Name: document.getElementById('register-name').value,
+                    Email: document.getElementById('register-email').value,
+                    Password: document.getElementById('register-password').value,
+                    ConfirmPassword: document.getElementById('register-confirm').value
+                };
+
+                console.log('Sending register request:', registerData);
+                const result = await sendRequest('/Account/Register', registerData);
+                console.log('Register response:', result);
+
+                if (result.success) {
+                    cleaningAndClosingForm();
+                    location.reload();
+                } else {
+                    displayErrors(result.errors, 'error-messages-register');
+                }
+            });
+
+            // Переключение между формами
+            document.querySelector('.switch-to-register').addEventListener('click', function(e) {
+                e.preventDefault();
+                openRegisterForm();
+            });
+
+            document.querySelector('.switch-to-login').addEventListener('click', function(e) {
+                e.preventDefault();
+                openLoginForm();
+            });
+
+            // Overlay
+            document.getElementById('overlay').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeAllForms();
+                }
+            });
+
+            // Escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeAllForms();
+                }
+            });
+
+            // Гамбургер-меню
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const sideMenuClose = document.getElementById('side-menu-close');
+            const sideMenuOverlay = document.getElementById('side-menu-overlay');
+            const sideMenuLogin = document.getElementById('side-menu-login');
+            const sideMenuRegister = document.getElementById('side-menu-register');
+
+            if (hamburgerMenu) {
+                hamburgerMenu.addEventListener('click', toggleSideMenu);
+            }
+
+            if (sideMenuClose) {
+                sideMenuClose.addEventListener('click', toggleSideMenu);
+            }
+
+            if (sideMenuOverlay) {
+                sideMenuOverlay.addEventListener('click', toggleSideMenu);
+            }
+
+            if (sideMenuLogin) {
+                sideMenuLogin.addEventListener('click', function() {
+                    toggleSideMenu();
+                    openLoginForm();
+                });
+            }
+
+            if (sideMenuRegister) {
+                sideMenuRegister.addEventListener('click', function() {
+                    toggleSideMenu();
+                    openRegisterForm();
+                });
+            }
+
+            // Анимация полей ввода
+            const inputs = document.querySelectorAll('.input-group input');
+            inputs.forEach(input => {
+                if (!input.getAttribute('placeholder')) {
+                    input.setAttribute('placeholder', ' ');
+                }
+
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    if (!this.value) {
+                        this.parentElement.classList.remove('focused');
+                    }
+                });
+            });
+        });
+    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
