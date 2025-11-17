@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgency.Domain", "..\k
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgency.Service", "..\kat_mob_soft.Service\TravelAgency.Service.csproj", "{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProject.Web", "..\PracticeProject.Web\PracticeProject.Web.csproj", "{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{7F6BBAAC-7EDD-46E5-BE5A-636015952038} = {3913B960-D27C-4638-AC1E-F9D0709CAFBD}
 		{8B34AD0F-59EE-46D1-9EA7-327C32422276} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
 		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0} = {1B72E210-9936-46B6-B118-B88DF7756093}
+		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58A5D70-FDE1-412A-B611-6D10A96D5A08}

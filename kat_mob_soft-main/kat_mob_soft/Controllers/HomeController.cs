@@ -16,8 +16,6 @@ namespace PraticProect.Controllers
                 Name = "Canon EOS R5",
                 Description = "Профессиональная беззеркальная камера с высоким разрешением",
                 Category = "Камеры",
-                Brand = "Canon",
-                Model = "EOS R5",
                 PricePerDay = 2500,
                 IsAvailable = true,
                 ImageUrl = "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
@@ -28,8 +26,6 @@ namespace PraticProect.Controllers
                 Name = "Nikon Z7 II",
                 Description = "Полнокадровая беззеркальная камера для профессионалов",
                 Category = "Камеры",
-                Brand = "Nikon",
-                Model = "Z7 II",
                 PricePerDay = 2200,
                 IsAvailable = true,
                 ImageUrl = "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
@@ -37,11 +33,9 @@ namespace PraticProect.Controllers
             new Equipment
             {
                 Id = 3,
-                Name = "Sony 24-70mm f/2.8",
+                Name = "Sony 24-70mm f/2.8 GM",
                 Description = "Профессиональный зум-объектив для полнокадровых камер",
                 Category = "Объективы",
-                Brand = "Sony",
-                Model = "24-70mm f/2.8 GM",
                 PricePerDay = 800,
                 IsAvailable = true,
                 ImageUrl = "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
@@ -52,8 +46,6 @@ namespace PraticProect.Controllers
                 Name = "Godox SL-60W",
                 Description = "Светодиодный осветитель для видеосъемки и фото",
                 Category = "Освещение",
-                Brand = "Godox",
-                Model = "SL-60W",
                 PricePerDay = 400,
                 IsAvailable = true,
                 ImageUrl = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"

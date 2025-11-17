@@ -1,73 +1,15 @@
 is_global = true
 build_property.TargetFramework = net6.0
 build_property.TargetPlatformMinVersion = 
-build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PraticProect
-build_property.RootNamespace = PraticProect
 build_property.ProjectDir = D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft
-build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/Equipment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcXVpcG1lbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/MyRentals.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVJlbnRhbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/Rent.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/SiteInformation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaXRlSW5mb3JtYXRpb24uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Home/_LoginRegistrationPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTG9naW5SZWdpc3RyYXRpb25QYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/tmu11/Desktop/practicwork/kat_mob_soft-main/kat_mob_soft/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 

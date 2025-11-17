@@ -1,33 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PhotoRental.Models;
-using PraticProect.Data;
-using PraticProect.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using PraticProect.Models;
 
 namespace PraticProect.Services
 {
     public class EquipmentService
     {
-        private readonly ApplicationDbContext _context;
+        private readonly List<Equipment> _equipment = new();
 
-        public EquipmentService(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<List<Equipment>> GetAllEquipmentAsync()
-        {
-            return await _context.Equipments
-                .Where(e => e.IsAvailable)
-                .OrderBy(e => e.Name)
-                .ToListAsync();
-        }
-
-        public async Task<Equipment> GetEquipmentByIdAsync(int id)
-        {
-            return await _context.Equipments
-                .FirstOrDefaultAsync(e => e.Id == id && e.IsAvailable);
-        }
+        public List<Equipment> GetAllEquipment() => _equipment;
+        public void AddEquipment(Equipment equipment) => _equipment.Add(equipment);
     }
 }

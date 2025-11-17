@@ -1,6 +1,6 @@
 ﻿@model List<PraticProect.Models.Equipment>
 @{
-    ViewData["Title"] = "Аренда фототехники";
+    Layout = "_Layout";
 }
 
 <div class="hero-section">
@@ -27,7 +27,7 @@
                     <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 250px; object-fit: cover;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">@item.Name</h5>
-                        <p class="card-text text-muted">@item.Brand @item.Model</p>
+                        <p class="card-text text-muted">@item.Category</p>
                         <p class="card-text">@item.Description</p>
                         <div class="mt-auto">
                             <p class="card-text"><strong>@item.PricePerDay.ToString("N0") руб./день</strong></p>
@@ -62,21 +62,10 @@
     </div>
 </div>
 
-<style>
-    .feature-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-    }
-
-        .feature-icon + h4 {
-            color: #ff6b35;
-            margin-bottom: 1rem;
-        }
-</style>
 <!-- Секция "Написать сообщение" -->
-<section class="contact-message-section">
+<section class="contact-message-section mt-5">
     <div class="container">
-        <h2>Написать сообщение</h2>
+        <h2 class="text-center mb-4">Написать сообщение</h2>
         <div class="contact-form-wrapper">
             <form class="contact-form" id="message-form">
                 <div class="form-row">
@@ -102,3 +91,84 @@
         </div>
     </div>
 </section>
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+    }
+
+    .equipment-card {
+        transition: transform 0.3s;
+        border: none;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+        .equipment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+    .feature-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-form-wrapper {
+        background: #f8f9fa;
+        padding: 2rem;
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+        .input-group input,
+        .input-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+        }
+
+        .input-group label {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: all 0.3s;
+            background: white;
+            padding: 0 5px;
+            color: #999;
+        }
+
+        .input-group input:focus + label,
+        .input-group textarea:focus + label,
+        .input-group input:not(:placeholder-shown) + label,
+        .input-group textarea:not(:placeholder-shown) + label {
+            top: -10px;
+            font-size: 12px;
+            color: #667eea;
+        }
+
+    .btn-send-message {
+        background: #667eea;
+        color: white;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+
+        .btn-send-message:hover {
+            background: #5a6fd8;
+        }
+</style>

@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using PhotoRental.Models;
-using PraticProect.Data;
 using PraticProect.Models;
+using PraticProect.DATA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
