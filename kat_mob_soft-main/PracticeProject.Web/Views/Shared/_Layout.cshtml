@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Аренда фототехники</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Шапка -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #8b5cf6; border-bottom: 2px solid #7c3aed;">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">📷 ФОТОТЕХНИКА</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Главная</a>
+                    <a class="nav-link" href="@Url.Action("Equipment", "Home")">Каталог</a>
+                    <a class="nav-link" href="@Url.Action("About", "Home")">О нас</a>
+                    <a class="nav-link" href="@Url.Action("Contact", "Home")">Контакты</a>
+                    <a class="nav-link" href="@Url.Action("MyRentals", "Home")">Мои аренды</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <button class="btn me-2" id="themeToggle" style="border: 2px solid white; color: white; background: transparent; border-radius: 50%; width: 40px; height: 40px;">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="fas fa-sign-in-alt"></i> Войти
+                    </a>
+                    <a class="btn ms-2" href="#" data-bs-toggle="modal" data-bs-target="#registerModal" style="border: 2px solid white; color: white; background: transparent; border-radius: 8px; padding: 8px 20px;">
+                        <i class="fas fa-user-plus"></i> Зарегистрироваться
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Отступ для шапки -->
+    <div style="height: 80px;"></div>
+
+    <!-- Основной контент -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- Футер -->
+    <footer class="text-white text-center py-4 mt-5" style="background: #8b5cf6; border-top: 2px solid #7c3aed;">
+        <div class="container">
+            <p>&copy; 2025 Аренда профессиональной фототехники</p>
+        </div>
+    </footer>
+
+    <!-- Модальные окна -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Вход в систему</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Войти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Регистрация</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm">
+                        <div class="mb-3">
+                            <label for="regName" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="regName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="regEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="regEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="regPassword" class="form-label">Пароль</label>
+                            <input type="password" class="form-control" id="regPassword" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="regConfirmPassword" class="form-label">Подтвердите пароль</label>
+                            <input type="password" class="form-control" id="regConfirmPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Зарегистрироваться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ПРОСТОЙ СКРИПТ ДЛЯ ТЕМЫ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            const body = document.body;
+
+            // Проверяем сохраненную тему
+            if (localStorage.getItem('darkTheme') === 'true') {
+                body.style.backgroundColor = '#0a0a0a';
+                body.style.color = '#ffffff';
+                updateThemeIcon(true);
+            }
+
+            // Обработчик кнопки
+            themeToggle.addEventListener('click', function() {
+                if (body.style.backgroundColor === 'rgb(10, 10, 10)') {
+                    // Включаем светлую тему
+                    body.style.backgroundColor = '';
+                    body.style.color = '';
+                    localStorage.setItem('darkTheme', 'false');
+                    updateThemeIcon(false);
+                } else {
+                    // Включаем темную тему
+                    body.style.backgroundColor = '#0a0a0a';
+                    body.style.color = '#ffffff';
+                    localStorage.setItem('darkTheme', 'true');
+                    updateThemeIcon(true);
+                }
+            });
+
+            function updateThemeIcon(isDark) {
+                const icon = themeToggle.querySelector('i');
+                if (isDark) {
+                    icon.className = 'fas fa-sun';
+                    themeToggle.title = 'Переключить на светлую тему';
+                } else {
+                    icon.className = 'fas fa-moon';
+                    themeToggle.title = 'Переключить на темную тему';
+                }
+            }
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

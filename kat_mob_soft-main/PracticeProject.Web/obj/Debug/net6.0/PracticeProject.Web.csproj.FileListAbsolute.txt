@@ -290,3 +290,5 @@ D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\obj\Deb
 D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\obj\Debug\net6.0\ref\PracticeProject.Web.dll
 D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\bin\Debug\net6.0\appsettings.json
 D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\obj\Debug\net6.0\PracticeProject.Web.RazorAssemblyInfo.cache
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\PracticeProject.Web\obj\Debug\net6.0\PracticeProject.Web.RazorAssemblyInfo.cs

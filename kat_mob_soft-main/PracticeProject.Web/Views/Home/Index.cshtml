@@ -1,0 +1,427 @@
+﻿@model List<PraticProect.Models.Equipment>
+@{
+    Layout = "_Layout";
+}
+
+<div class="hero-section">
+    <div class="container">
+        <h1 class="display-4">Аренда профессиональной фототехники</h1>
+        <p class="lead">Камеры, объективы, освещение и аксессуары для вашего творчества</p>
+        <a href="@Url.Action("Equipment")" class="btn btn-light btn-lg">Смотреть каталог</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Популярное оборудование</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 equipment-card">
+                    <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 250px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-muted">@item.Category</p>
+                        <p class="card-text">@item.Description</p>
+                        <div class="mt-auto">
+                            <p class="card-text"><strong>@item.PricePerDay.ToString("N0") руб./день</strong></p>
+                            <a href="@Url.Action("Rent", new { id = item.Id })" class="btn btn-primary">Арендовать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Почему выбирают нас?</h2>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">📷</div>
+            <h4>Качественное оборудование</h4>
+            <p>Только оригинальная и регулярно обслуживаемая техника</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">🚚</div>
+            <h4>Быстрая доставка</h4>
+            <p>Доставка в день заказа по всему городу</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">💬</div>
+            <h4>Поддержка 24/7</h4>
+            <p>Всегда готовы помочь с выбором и консультацией</p>
+        </div>
+    </div>
+</div>
+
+<!-- Секция "Написать сообщение" -->
+<section class="contact-message-section mt-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Написать сообщение</h2>
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="message-form">
+                <div class="form-row">
+                    <div class="input-group">
+                        <input type="text" id="message-name" required placeholder=" ">
+                        <label for="message-name">Ваше имя</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="message-email" required placeholder=" ">
+                        <label for="message-email">Ваш email</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="message-subject" required placeholder=" ">
+                    <label for="message-subject">Тема сообщения</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message-text" required placeholder=" " rows="5"></textarea>
+                    <label for="message-text">Ваше сообщение</label>
+                </div>
+                <button type="submit" class="btn-send-message">Отправить сообщение</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Секция с картой и контактами -->
+<section class="map-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Как нас найти</h2>
+
+        <div class="row">
+            <!-- Контактная информация -->
+            <div class="col-lg-4 mb-4">
+                <div class="contact-info">
+                    <h4 class="mb-4">Контактная информация</h4>
+
+                    <div class="contact-item mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Адрес:</strong>
+                            <p>г. Москва, ул. Тверская, д. 10<br>Бизнес-центр "Фототехника"</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Телефон:</strong>
+                            <p>+7 (373) 777-91-115</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Email:</strong>
+                            <p>info@photorent.ru</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item mb-3">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Часы работы:</strong>
+                            <p>Пн-Пт: 9:00 - 21:00<br>Сб-Вс: 10:00 - 20:00</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-subway"></i>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Метро:</strong>
+                            <p>Охотный ряд (1 мин. пешком)<br>Театральная (3 мин. пешком)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карта -->
+            <div class="col-lg-8">
+                <div class="map-container">
+                    <div class="map-image mb-3">
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                             alt="Карта расположения" class="img-fluid rounded" style="height: 300px; width: 100%; object-fit: cover;">
+                        <div class="map-overlay">
+                            <i class="fas fa-map-pin"></i>
+                            <span>Мы здесь!</span>
+                        </div>
+                    </div>
+
+                    <!-- Интерактивная карта -->
+                    <div class="map-iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.373789929224!2d37.61763331593047!3d55.755826680553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5b0a7a5731%3A0x25c9c5a5a5a5a5a5!2z0KLQtdC80LXRgNCw0LvRjNC90LDRjyDQv9C-0LvRjNGC!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru"
+                                width="100%"
+                                height="300"
+                                style="border:0; border-radius: 10px;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .hero-section {
+        background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+        color: white;
+        padding: 120px 0;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+    .equipment-card {
+        transition: all 0.3s ease;
+        border: none;
+        background: var(--card-bg);
+        color: var(--text-primary);
+        box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+        .equipment-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 30px rgba(139, 92, 246, 0.4);
+        }
+
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .equipment-card:hover .card-img-top {
+        transform: scale(1.05);
+    }
+
+    .feature-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .contact-form-wrapper {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 15px;
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid rgba(139, 92, 246, 0.3);
+        box-shadow: 0 8px 25px rgba(139, 92, 246, 0.2);
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+        .input-group input,
+        .input-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #444;
+            border-radius: 8px;
+            background: var(--secondary-bg);
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+            .input-group input:focus,
+            .input-group textarea:focus {
+                border-color: #8b5cf6;
+                box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+                outline: none;
+            }
+
+        .input-group label {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            transition: all 0.3s;
+            background: var(--secondary-bg);
+            padding: 0 5px;
+            color: var(--text-secondary);
+        }
+
+        .input-group input:focus + label,
+        .input-group textarea:focus + label,
+        .input-group input:not(:placeholder-shown) + label,
+        .input-group textarea:not(:placeholder-shown) + label {
+            top: -10px;
+            font-size: 12px;
+            color: #8b5cf6;
+            background: var(--primary-bg);
+        }
+
+    .btn-send-message {
+        background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+        color: white;
+        border: none;
+        padding: 12px 40px;
+        border-radius: 8px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    }
+
+        .btn-send-message:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.6);
+        }
+
+    /* Стили для секции карты */
+    .map-section {
+        background: var(--secondary-bg);
+        border-radius: 15px;
+        margin: 2rem auto;
+    }
+
+    .contact-info {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 15px;
+        border: 1px solid #8b5cf6;
+        box-shadow: 0 4px 15px rgba(139, 92, 246, 0.2);
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+
+        .contact-icon i {
+            color: white;
+            font-size: 1rem;
+        }
+
+    .contact-text strong {
+        color: #8b5cf6;
+        display: block;
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-text p {
+        margin: 0;
+        color: var(--text-primary);
+        line-height: 1.4;
+    }
+
+    .map-container {
+        position: relative;
+    }
+
+    .map-image {
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .map-overlay {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: #8b5cf6;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+
+        .map-overlay i {
+            font-size: 1.2rem;
+        }
+
+    .map-iframe {
+        margin-top: 1.5rem;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    /* Адаптивность */
+    @@media (max-width: 768px) {
+        .contact-item {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .contact-icon {
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .map-overlay {
+            top: 10px;
+            left: 10px;
+            font-size: 0.9rem;
+        }
+
+        .hero-section {
+            padding: 80px 0;
+        }
+    }
+</style>

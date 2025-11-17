@@ -48,6 +48,7 @@ namespace PraticProect.Controllers
         {
             if (!ModelState.IsValid)
             {
+
                 var errors = ModelState.Values
                     .SelectMany(v => v.Errors)
                     .Select(e => e.ErrorMessage)
@@ -72,6 +73,7 @@ namespace PraticProect.Controllers
             await _context.SaveChangesAsync();
 
             return Json(new { success = true, message = "Регистрация выполнена успешно" });
+
         }
 
         private string HashPassword(string password)
