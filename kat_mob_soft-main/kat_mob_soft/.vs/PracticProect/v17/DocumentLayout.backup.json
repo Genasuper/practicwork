@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}|..\\PracticeProject.Web\\PracticeProject.Web.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\practiceproject.web\\practiceproject.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -33,10 +44,6 @@
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:praticproect.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:wwwroot\\css\\media_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,15 +59,8 @@
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}|..\\PracticeProject.Web\\PracticeProject.Web.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\practiceproject.web\\practiceproject.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}|..\\PracticeProject.Web\\PracticeProject.Web.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\practiceproject.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -92,46 +92,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login_and_registration_script.js",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-17T15:07:44.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "..\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T14:58:25.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "shared_scripts.js",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\shared_scripts.js",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
-              "RelativeToolTip": "wwwroot\\js\\shared_scripts.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-17T14:27:47.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "home.css",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
@@ -144,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "..\\PracticeProject.Web\\Views\\Shared\\_Layout.cshtml",
@@ -157,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "login_and_registration.css",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\login_and_registration.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\login_and_registration.css",
@@ -170,7 +131,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:47:05.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "media_style.css",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\media_style.css",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css",
+              "RelativeToolTip": "wwwroot\\css\\media_style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-17T14:27:30.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PracticeProject.Web.csproj",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
+              "RelativeDocumentMoniker": "..\\PracticeProject.Web\\PracticeProject.Web.csproj",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
+              "RelativeToolTip": "..\\PracticeProject.Web\\PracticeProject.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-17T13:21:01.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "shared_scripts.js",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\shared_scripts.js",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\shared_scripts.js",
+              "RelativeToolTip": "wwwroot\\js\\shared_scripts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-17T14:27:47.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T14:58:25.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "login_and_registration_script.js",
+              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-17T15:07:44.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "shared.css",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\shared.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
@@ -183,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Equipment.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Models\\Equipment.cs",
               "RelativeDocumentMoniker": "Models\\Equipment.cs",
@@ -196,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PraticProect.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\PraticProect.csproj",
               "RelativeDocumentMoniker": "PraticProect.csproj",
@@ -209,20 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "media_style.css",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\media_style.css",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\wwwroot\\css\\media_style.css",
-              "RelativeToolTip": "wwwroot\\css\\media_style.css",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T14:27:30.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -234,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\DATA\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DATA\\ApplicationDbContext.cs",
@@ -258,20 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PracticeProject.Web.csproj",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
-              "RelativeDocumentMoniker": "..\\PracticeProject.Web\\PracticeProject.Web.csproj",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
-              "RelativeToolTip": "..\\PracticeProject.Web\\PracticeProject.Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-17T13:21:01.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\Program.cs",
               "RelativeDocumentMoniker": "..\\PracticeProject.Web\\Program.cs",
@@ -295,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -304,18 +317,6 @@
               "ViewState": "AgIAAHgAAAAAAAAAAAAiwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T13:17:16.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T13:47:05.329Z"
             },
             {
               "$type": "Document",

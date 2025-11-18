@@ -51,10 +51,6 @@
       "AbsoluteMoniker": "D:0:0:{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}|..\\PracticeProject.Web\\PracticeProject.Web.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\practiceproject.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B09705-B5FC-4DA2-99DC-38EEBE284552}|PraticProect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,6 +75,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F6BBAAC-7EDD-46E5-BE5A-636015952038}|..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj|d:\\users\\tmu11\\desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.dal\\travelagency.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -100,8 +100,7 @@
               "RelativeToolTip": "wwwroot\\css\\home.css",
               "ViewState": "AgIAACgAAAAAAAAAAAAAwDIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T14:27:00.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:27:00.638Z"
             },
             {
               "$type": "Document",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "..\\PracticeProject.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T14:16:34.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:16:34.574Z"
             },
             {
               "$type": "Document",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "wwwroot\\css\\login_and_registration.css",
               "ViewState": "AgIAABcAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T14:27:18.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:27:18.373Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowEUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T13:47:05.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T13:47:05.329Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "wwwroot\\css\\media_style.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T14:27:30.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:27:30.58Z"
             },
             {
               "$type": "Document",
@@ -178,8 +173,7 @@
               "RelativeToolTip": "wwwroot\\js\\shared_scripts.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-17T14:27:47.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:27:47.524Z"
             },
             {
               "$type": "Document",
@@ -191,8 +185,7 @@
               "RelativeToolTip": "..\\PracticeProject.Web\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAJ0AAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T14:58:25.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:58:25.798Z"
             },
             {
               "$type": "Document",
@@ -204,8 +197,7 @@
               "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-17T15:07:44.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T15:07:44.653Z"
             },
             {
               "$type": "Document",
@@ -217,8 +209,7 @@
               "RelativeToolTip": "wwwroot\\css\\shared.css",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-17T14:26:47.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:26:47.35Z"
             },
             {
               "$type": "Document",
@@ -230,8 +221,7 @@
               "RelativeToolTip": "Models\\Equipment.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T14:03:02.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T14:03:02.528Z"
             },
             {
               "$type": "Document",
@@ -243,12 +233,11 @@
               "RelativeToolTip": "PraticProect.csproj",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T15:14:48.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T15:14:48.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -260,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\DATA\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DATA\\ApplicationDbContext.cs",
@@ -272,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\appsettings.json",
               "RelativeDocumentMoniker": "..\\PracticeProject.Web\\appsettings.json",
@@ -296,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "..\\PracticeProject.Web\\WeatherForecast.cs",
@@ -308,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -320,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.Domain\\Class1.cs",
@@ -332,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "TravelAgency.Domain.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
@@ -340,12 +329,11 @@
               "RelativeToolTip": "..\\kat_mob_soft.Domain\\TravelAgency.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T13:48:21.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T13:48:21.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "TravelAgency.Service.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
@@ -353,12 +341,11 @@
               "RelativeToolTip": "..\\kat_mob_soft.Service\\TravelAgency.Service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T13:42:40.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:42:40.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "TravelAgency.DAL.csproj",
               "DocumentMoniker": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "RelativeDocumentMoniker": "..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
@@ -366,8 +353,7 @@
               "RelativeToolTip": "..\\kat_mob_soft.DAL\\TravelAgency.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T13:42:14.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:42:14.843Z"
             }
           ]
         }
