@@ -3972,7 +3972,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "TravelAgency.Domain": "1.0.0"
+          "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\Domain\\TravelAgency.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.0"
         },
         "compile": {
           "bin/placeholder/TravelAgency.DAL.dll": {}
@@ -11389,5 +11392,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\Domain\\TravelAgency.Domain\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\Domain\\TravelAgency.Domain",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

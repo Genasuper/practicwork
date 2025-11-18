@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "rTlQULd1V74=",
-  "success": true,
+  "dgSpecHash": "TcY7zQhMQIw=",
+  "success": false,
   "projectFilePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\tmu11\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -232,5 +232,17 @@
     "D:\\Users\\tmu11\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "D:\\Users\\tmu11\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\Domain\\TravelAgency.Domain\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "projectPath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
+      "filePath": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\PracticeProject.Web\\PracticeProject.Web.csproj",
+      "libraryId": "D:\\Users\\tmu11\\Desktop\\practicwork\\kat_mob_soft-main\\Domain\\TravelAgency.Domain",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

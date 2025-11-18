@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PraticProect", "PraticProect.csproj", "{64B09705-B5FC-4DA2-99DC-38EEBE284552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{3913B960-D27C-4638-AC1E-F9D0709CAFBD}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{56CF9AAC-1275-4526-A7A1-899444E970DC}"
+	ProjectSection(SolutionItems) = preProject
+		TravelAgency.Domain = TravelAgency.Domain
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1B72E210-9936-46B6-B118-B88DF7756093}"
 EndProject
@@ -18,6 +24,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgency.Service", "..\kat_mob_soft.Service\TravelAgency.Service.csproj", "{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProject.Web", "..\PracticeProject.Web\PracticeProject.Web.csproj", "{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelsDb", "ModelsDb", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+	ProjectSection(SolutionItems) = preProject
+		CategoryDb.cs = CategoryDb.cs
+		EquipmentDb.cs = EquipmentDb.cs
+		EquipmentImageDb.cs = EquipmentImageDb.cs
+		RentalOrderDb.cs = RentalOrderDb.cs
+		RentalRequestDb.cs = RentalRequestDb.cs
+		UserDb.cs = UserDb.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enums", "Enums", "{EFFC6FC8-5B3A-4A5D-BFE0-AC638ED13B67}"
+	ProjectSection(SolutionItems) = preProject
+		EquipmentStatus.cs = EquipmentStatus.cs
+		OrderStatus.cs = OrderStatus.cs
+		UserRole.cs = UserRole.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +77,8 @@ Global
 		{8B34AD0F-59EE-46D1-9EA7-327C32422276} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
 		{965B6375-072C-4BAC-8BB0-80CDBF6E2EE0} = {1B72E210-9936-46B6-B118-B88DF7756093}
 		{287ADEE4-2905-4AB7-AA3E-045F83B5AC7B} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
+		{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
+		{EFFC6FC8-5B3A-4A5D-BFE0-AC638ED13B67} = {56CF9AAC-1275-4526-A7A1-899444E970DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B58A5D70-FDE1-412A-B611-6D10A96D5A08}
