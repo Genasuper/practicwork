@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace PraticProect.Models
 {
@@ -6,18 +7,27 @@ namespace PraticProect.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Имя обязательно")]
-        public string Name { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string Login { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Email обязателен")]
-        [EmailAddress(ErrorMessage = "Некорректный формат Email")]
-        public string Email { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Password { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Пароль обязателен")]
-        public string Password { get; set; }
+        [Required]
+        [EmailAddress]
+        [StringLength(100)]
+        public string Email { get; set; } = string.Empty;
 
-        // Для совместимости
-        public string PasswordHash { get; set; }
+        [StringLength(20)]
+        public string Role { get; set; } = "user";
+
+        [StringLength(500)]
+        public string? ProfileImage { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+        public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
     }
 }

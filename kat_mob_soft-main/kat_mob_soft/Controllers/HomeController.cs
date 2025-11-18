@@ -1,62 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PraticProect.Models;
-using System;
-using System.Collections.Generic;
+using PraticProect.DATA;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace PraticProect.Controllers
 {
     public class HomeController : Controller
     {
-        private static List<Equipment> _equipment = new()
-        {
-            new Equipment
-            {
-                Id = 1,
-                Name = "Canon EOS R5",
-                Description = "Профессиональная беззеркальная камера с высоким разрешением",
-                Category = "Камеры",
-                PricePerDay = 2500,
-                IsAvailable = true,
-                ImageUrl = "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-            },
-            new Equipment
-            {
-                Id = 2,
-                Name = "Nikon Z7 II",
-                Description = "Полнокадровая беззеркальная камера для профессионалов",
-                Category = "Камеры",
-                PricePerDay = 2200,
-                IsAvailable = true,
-                ImageUrl = "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-            },
-            new Equipment
-            {
-                Id = 3,
-                Name = "Sony 24-70mm f/2.8 GM",
-                Description = "Профессиональный зум-объектив для полнокадровых камер",
-                Category = "Объективы",
-                PricePerDay = 800,
-                IsAvailable = true,
-                ImageUrl = "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-            },
-            new Equipment
-            {
-                Id = 4,
-                Name = "Godox SL-60W",
-                Description = "Светодиодный осветитель для видеосъемки и фото",
-                Category = "Освещение",
-                PricePerDay = 400,
-                IsAvailable = true,
-                ImageUrl = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
-            }
-        };
+        private readonly ApplicationDbContext _context;
 
-        private static List<Rental> _rentals = new();
-
-        public IActionResult Index()
+        public HomeController(ApplicationDbContext context)
         {
-            var availableEquipment = _equipment.Where(e => e.IsAvailable).Take(3).ToList();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var availableEquipment = await _context.Equipment
+                .Where(e => e.IsAvailable)
+                .Take(3)
+                .ToListAsync();
+
             return View(availableEquipment);
         }
 
@@ -70,15 +36,16 @@ namespace PraticProect.Controllers
             return View();
         }
 
-        public IActionResult Equipment()
+        public async Task<IActionResult> Equipment()
         {
-            return View(_equipment);
+            var equipment = await _context.Equipment.ToListAsync();
+            return View(equipment);
         }
 
         [HttpGet]
-        public IActionResult Rent(int id)
+        public async Task<IActionResult> Rent(int id)
         {
-            var equipment = _equipment.FirstOrDefault(e => e.Id == id);
+            var equipment = await _context.Equipment.FirstOrDefaultAsync(e => e.Id == id);
             if (equipment == null)
                 return NotFound();
 
@@ -86,30 +53,30 @@ namespace PraticProect.Controllers
             {
                 EquipmentId = id,
                 Equipment = equipment,
-                StartDate = DateTime.Today.AddDays(1),
-                EndDate = DateTime.Today.AddDays(2)
+                StartDate = System.DateTime.Today.AddDays(1),
+                EndDate = System.DateTime.Today.AddDays(2)
             };
 
             return View(rental);
         }
 
         [HttpPost]
-        public IActionResult Rent(Rental rental)
+        public async Task<IActionResult> Rent(Rental rental)
         {
             if (ModelState.IsValid)
             {
-                var equipment = _equipment.FirstOrDefault(e => e.Id == rental.EquipmentId);
+                var equipment = await _context.Equipment.FirstOrDefaultAsync(e => e.Id == rental.EquipmentId);
                 if (equipment != null && equipment.IsAvailable)
                 {
                     var days = (rental.EndDate - rental.StartDate).Days;
                     if (days > 0)
                     {
-                        rental.Id = _rentals.Count + 1;
                         rental.TotalPrice = days * equipment.PricePerDay;
-                        rental.CreatedAt = DateTime.Now;
+                        rental.CreatedAt = System.DateTime.Now;
                         rental.Status = "Подтвержден";
 
-                        _rentals.Add(rental);
+                        _context.Rentals.Add(rental);
+                        await _context.SaveChangesAsync();
 
                         TempData["SuccessMessage"] = $"Аренда оформлена! Сумма: {rental.TotalPrice} руб.";
                         return RedirectToAction("Index");
@@ -117,18 +84,22 @@ namespace PraticProect.Controllers
                 }
             }
 
-            rental.Equipment = _equipment.FirstOrDefault(e => e.Id == rental.EquipmentId);
+            rental.Equipment = await _context.Equipment.FirstOrDefaultAsync(e => e.Id == rental.EquipmentId);
             return View(rental);
         }
 
-        public IActionResult MyRentals(string email)
+        public async Task<IActionResult> MyRentals(string email)
         {
             if (string.IsNullOrEmpty(email))
             {
-                return View(new List<Rental>());
+                return View(new System.Collections.Generic.List<Rental>());
             }
 
-            var userRentals = _rentals.Where(r => r.UserEmail == email).ToList();
+            var userRentals = await _context.Rentals
+                .Where(r => r.UserEmail == email)
+                .Include(r => r.Equipment)
+                .ToListAsync();
+
             return View(userRentals);
         }
 

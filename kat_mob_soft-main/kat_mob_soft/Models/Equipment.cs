@@ -18,9 +18,9 @@ namespace PraticProect.Models
         public bool IsAvailable { get; set; } = true;
         public string ImageUrl { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-        // Сделайте эти поля необязательными
         public string? Brand { get; set; }
         public string? Model { get; set; }
+
+        public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
     }
 }
