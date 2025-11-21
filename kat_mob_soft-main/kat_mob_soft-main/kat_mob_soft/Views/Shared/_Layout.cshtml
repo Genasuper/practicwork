@@ -1,0 +1,458 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Http
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - GiftCertificates</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/media_style.css" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <meta name="description" content="Подарочные сертификаты — выбор, покупка и активация сертификатов" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container header-top-inner">
+                <div class="logo">
+                    <a asp-area="" asp-controller="Home" asp-action="SiteInformation">
+                        <span class="logo-main">GiftCertificates</span>
+                        <small class="logo-sub">подарочные сертификаты</small>
+                    </a>
+                </div>
+
+                <!-- Блок авторизации -->
+                <div class="auth-buttons">
+                    <button class="btn btn-primary" id="click-to-hide">Войти</button>
+                    <button class="btn btn-ghost" id="click-to-hide-register">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container header-bottom-inner">
+                <nav class="main-nav" role="navigation" aria-label="Главное меню">
+                    <ul class="nav-list">
+                        <li><a asp-area="" asp-controller="Catalog" asp-action="Index">Каталог сертификатов</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">О нас</a></li>
+                        <li><a asp-controller="Home" asp-action="Services">Услуги</a></li>
+                        <li><a asp-controller="Home" asp-action="Contacts">Контакты</a></li>
+                        <li><a asp-controller="Certificate" asp-action="CheckBalance">Проверить баланс</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <form asp-area="" asp-controller="Catalog" asp-action="Search" method="get" class="search-form">
+                        <input type="search" name="q" placeholder="Поиск сертификатов..." aria-label="Поиск по каталогу" />
+                        <button type="submit" class="btn-icon" aria-label="Искать">🔍</button>
+                    </form>
+
+                    <!-- Иконка-гамбургер -->
+                    <button id="side-menu-button-click-to-hide" class="hamburger" aria-label="Открыть меню">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- ▼▼▼ ДОБАВЛЕННЫЙ БЛОК ДЛЯ ВЫДВИЖНОГО МЕНЮ ▼▼▼ -->
+        <div class="side-menu" id="side-menu">
+            <button id="side-menu-button-click-to-hide" class="close-btn" aria-label="Закрыть меню">✖</button>
+            <nav class="side-nav">
+                <a asp-area="" asp-controller="Catalog" asp-action="Index">Каталог сертификатов</a>
+                <a asp-controller="Home" asp-action="Index">О нас</a>
+                <a asp-controller="Home" asp-action="Services">Услуги</a>
+                <a asp-controller="Home" asp-action="Contacts">Контакты</a>
+                <a asp-controller="Certificate" asp-action="CheckBalance">Проверить баланс</a>
+                <a asp-controller="Account" asp-action="Login">Войти</a>
+                <a asp-controller="Account" asp-action="Register">Зарегистрироваться</a>
+            </nav>
+        </div>
+        <!-- ▲▲▲ КОНЕЦ ДОБАВЛЕННОГО БЛОКА ▲▲▲ -->
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <h4>GiftCertificates</h4>
+                <p>Мы — ведущая платформа по продаже подарочных сертификатов в Приднестровье. Наша миссия — делать подарки простыми и радостными для всех.</p>
+                <p>С 2020 года мы помогаем людям дарить эмоции, а не просто вещи. Более 10 000 довольных клиентов уже выбрали наши сертификаты.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Меню</h5>
+                <ul class="footer-links">
+                    <li><a asp-controller="Home" asp-action="Index">Главная</a></li>
+                    <li><a asp-controller="Catalog" asp-action="Index">Каталог сертификатов</a></li>
+                    <li><a asp-controller="Home" asp-action="Services">Наши услуги</a></li>
+                    <li><a asp-controller="Home" asp-action="Contacts">Контакты</a></li>
+                    <li><a asp-controller="Certificate" asp-action="CheckBalance">Проверить баланс</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5>Контакты</h5>
+                <address>
+                    г. Тирасполь, ул. Примерная, 123<br />
+                    БЦ "Подарочный", 3 этаж<br />
+                    E-mail: info@giftcertificates.local<br />
+                    Телефон: +373 (533) 123-456
+                </address>
+            </div>
+            <div class="footer-col">
+                <h5>Помощь</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Как купить сертификат</a></li>
+                    <li><a href="#">Как активировать сертификат</a></li>
+                    <li><a href="#">Условия использования</a></li>
+                    <li><a href="#">Возврат средств</a></li>
+                    <li><a href="#">Частые вопросы</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <small>© @(DateTime.Now.Year) GiftCertificates — Все права защищены. Подарочные сертификаты для любых мероприятий.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- КРАСИВОЕ МОДАЛЬНОЕ ОКНО РЕГИСТРАЦИИ/ВХОДА -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <div class="modal-close" id="modalClose">×</div>
+
+            <div class="modal-content">
+                <!-- Форма входа -->
+                <div class="modal-form" id="loginForm">
+                    <h2>Войти в аккаунт</h2>
+                    <form method="post" asp-controller="Account" asp-action="Login">
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            <input type="email" name="Email" class="form-input" placeholder=" " required>
+                            <label class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="Password" class="form-input" placeholder=" " required>
+                            <label class="form-label">Пароль</label>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox" name="RememberMe">
+                                <span>Запомнить меня</span>
+                            </label>
+                            <a href="#" class="forgot-link">Забыли пароль?</a>
+                        </div>
+                        <button type="submit" class="submit-btn">Войти</button>
+                    </form>
+                    <div class="form-switch">
+                        <p>Нет аккаунта? <a href="#" class="switch-link" data-form="register">Зарегистрироваться</a></p>
+                    </div>
+                </div>
+
+                <!-- Форма регистрации -->
+                <div class="modal-form hidden" id="registerForm">
+                    <h2>Создать аккаунт</h2>
+                    <form method="post" asp-controller="Account" asp-action="Register">
+                        @Html.AntiForgeryToken()
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" name="FirstName" class="form-input" placeholder=" " required>
+                                <label class="form-label">Имя</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="LastName" class="form-input" placeholder=" " required>
+                                <label class="form-label">Фамилия</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="Email" class="form-input" placeholder=" " required>
+                            <label class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="Password" class="form-input" placeholder=" " required>
+                            <label class="form-label">Пароль</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="ConfirmPassword" class="form-input" placeholder=" " required>
+                            <label class="form-label">Подтвердите пароль</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Зарегистрироваться</button>
+                    </form>
+                    <div class="form-switch">
+                        <p>Уже есть аккаунт? <a href="#" class="switch-link" data-form="login">Войти</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Стили для модального окна -->
+    <style>
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        .modal-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 450px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 24px;
+            color: #666;
+            cursor: pointer;
+            z-index: 10;
+            transition: color 0.3s ease;
+        }
+
+            .modal-close:hover {
+                color: #333;
+            }
+
+        .modal-content {
+            padding: 40px;
+        }
+
+        .modal-form h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 25px;
+            flex: 1;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            font-size: 16px;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+        }
+
+            .form-input:focus {
+                border-color: #667eea;
+                background: white;
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            }
+
+        .form-label {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #999;
+            font-size: 16px;
+            pointer-events: none;
+            transition: all 0.3s ease;
+            background: white;
+            padding: 0 5px;
+        }
+
+        .form-input:focus + .form-label,
+        .form-input:not(:placeholder-shown) + .form-label {
+            top: -10px;
+            left: 10px;
+            font-size: 12px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+            .submit-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            }
+
+            .submit-btn:active {
+                transform: translateY(0);
+            }
+
+        .form-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .checkbox {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #666;
+            cursor: pointer;
+        }
+
+        .forgot-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+            .forgot-link:hover {
+                text-decoration: underline;
+            }
+
+        .form-switch {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #e1e5e9;
+        }
+
+            .form-switch p {
+                color: #666;
+                font-size: 14px;
+            }
+
+        .switch-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+            .switch-link:hover {
+                text-decoration: underline;
+            }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+
+    <!-- JavaScript для модального окна -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const overlay = document.getElementById('modalOverlay');
+            const closeBtn = document.getElementById('modalClose');
+            const loginBtn = document.getElementById('click-to-hide');
+            const registerBtn = document.getElementById('click-to-hide-register');
+            const switchLinks = document.querySelectorAll('.switch-link');
+            const loginForm = document.getElementById('loginForm');
+            const registerForm = document.getElementById('registerForm');
+
+            // Открытие формы входа
+            if (loginBtn) {
+                loginBtn.addEventListener('click', function() {
+                    overlay.style.display = 'block';
+                    loginForm.classList.remove('hidden');
+                    registerForm.classList.add('hidden');
+                });
+            }
+
+            // Открытие формы регистрации
+            if (registerBtn) {
+                registerBtn.addEventListener('click', function() {
+                    overlay.style.display = 'block';
+                    registerForm.classList.remove('hidden');
+                    loginForm.classList.add('hidden');
+                });
+            }
+
+            // Закрытие модального окна
+            if (closeBtn) {
+                closeBtn.addEventListener('click', function() {
+                    overlay.style.display = 'none';
+                });
+            }
+
+            // Закрытие по клику на overlay
+            if (overlay) {
+                overlay.addEventListener('click', function(e) {
+                    if (e.target === overlay) {
+                        overlay.style.display = 'none';
+                    }
+                });
+            }
+
+            // Переключение между формами
+            switchLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const formType = this.getAttribute('data-form');
+
+                    if (formType === 'register') {
+                        loginForm.classList.add('hidden');
+                        registerForm.classList.remove('hidden');
+                    } else {
+                        registerForm.classList.add('hidden');
+                        loginForm.classList.remove('hidden');
+                    }
+                });
+            });
+
+            // Закрытие по Escape
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    overlay.style.display = 'none';
+                }
+            });
+        });
+    </script>
+
+    <!-- Подключаем скрипты -->
+    <script src="~/js/shared_script.js" asp-append-version="true"></script>
+    <script src="~/js/home_script.js" asp-append-version="true"></script>
+    <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

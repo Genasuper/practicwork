@@ -1,0 +1,88 @@
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CopyComplete
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\up\kat_mob_soft\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.json
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.dev.json
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_.DD3FBDCE.Up2Date
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\refint\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.genruntimeconfig.cache
+C:\Users\Г\Desktop\313131\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.json
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.dev.json
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_.DD3FBDCE.Up2Date
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\refint\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.genruntimeconfig.cache
+C:\Users\Г\Desktop\бд\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.json
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.dev.json
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_.DD3FBDCE.Up2Date
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\refint\kat_mob_soft.DAL.dll
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.genruntimeconfig.cache
+C:\Users\Г\Desktop\бд вроде как ботрачит\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.deps.json
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.json
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.runtimeconfig.dev.json
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.DAL.pdb
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\bin\Debug\net5.0\kat_mob_soft.Domain.pdb
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.AssemblyReference.cache
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfoInputs.cache
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.AssemblyInfo.cs
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.csproj.CoreCompileInputs.cache
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.sourcelink.json
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_.DD3FBDCE.Up2Date
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\refint\kat_mob_soft.DAL.dll
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.pdb
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\kat_mob_soft.DAL.genruntimeconfig.cache
+D:\Users\tmu11\Desktop\practicwork\kat_mob_soft-main\kat_mob_soft-main\kat_mob_soft.DAL\obj\Debug\net5.0\ref\kat_mob_soft.DAL.dll

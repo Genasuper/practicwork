@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<main class="container">
+    <section class="section hero-section">
+        <h1 class="hero-title">Добро пожаловать в GiftCertificates!</h1>
+        <p class="hero-description">Подарочные сертификаты для любых мероприятий</p>
+
+        <div class="hero-actions">
+            <a asp-controller="Catalog" asp-action="Index" class="btn btn-primary">Выбрать сертификат</a>
+            <a asp-controller="Home" asp-action="Contacts" class="btn btn-ghost">Связаться с нами</a>
+            <a asp-controller="Home" asp-action="Services" class="btn btn-ghost">Наши услуги</a>
+        </div>
+    </section>
+
+    <section class="section features-section">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎁</div>
+                <h3>Широкий выбор</h3>
+                <p>Сертификаты для ресторанов, спа, развлечений и многого другого</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Мгновенная доставка</h3>
+                <p>Электронные сертификаты доступны сразу после оплаты</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3>Надежность</h3>
+                <p>Все сертификаты защищены от подделки и имеют уникальные коды</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<style>
+    .hero-section {
+        text-align: center;
+        padding: 80px 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 15px;
+        margin-bottom: 60px;
+    }
+
+    .hero-title {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: 1.3em;
+        margin-bottom: 30px;
+        opacity: 0.9;
+    }
+
+    .hero-actions {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .features-section {
+        margin-bottom: 60px;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .feature-card {
+        background: #f8f9fa;
+        padding: 30px;
+        border-radius: 12px;
+        text-align: center;
+        border-left: 4px solid #667eea;
+    }
+
+    .feature-icon {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+
+    .feature-card h3 {
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .feature-card p {
+        color: #666;
+        line-height: 1.6;
+    }
+</style>

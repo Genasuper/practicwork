@@ -1,0 +1,155 @@
+﻿@{
+    ViewData["Title"] = "GiftCertificates — О нас";
+}
+
+<main class="container">
+    <!-- О нас -->
+    <section id="about" class="section about-section">
+        <h1 class="section-title">О нас</h1>
+        <div class="contacts-grid">
+            <div class="contact-info">
+                <p><strong>GiftCertificates</strong> — это современная платформа для покупки и управления подарочными сертификатами. Мы делаем процесс дарения простым, удобным и запоминающимся.</p>
+
+                <p>Наша миссия — помогать людям дарить именно те эмоции, которые они хотят подарить. С нашими сертификатами получатель сам выбирает подарок своей мечты!</p>
+
+                <h3 style="margin-top: 20px; color: #e91e63;">Наши ценности:</h3>
+                <ul style="margin: 15px 0; padding-left: 20px; color: #333;">
+                    <li>Качество и надежность каждого сертификата</li>
+                    <li>Широкий выбор категорий и номиналов</li>
+                    <li>Простота использования и мгновенная доставка</li>
+                    <li>Забота о каждом клиенте</li>
+                </ul>
+
+                <!-- Кнопка для перехода к контактам -->
+                <div style="margin-top: 30px;">
+                    <a asp-controller="Home" asp-action="Contacts" class="btn btn-primary">Связаться с нами</a>
+                </div>
+            </div>
+            <div class="contact-map">
+                <img src="/images/about-us.jpg" alt="О компании GiftCertificates" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Наши услуги -->
+    <section class="services-section">
+        <div class="container-section">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-wrapper">
+                <button class="arrow left" id="services-left" aria-label="Предыдущие услуги">&#8249;</button>
+
+                <div class="services-container">
+                    <div class="services-track" id="services-track">
+                        <!-- Карточка 1 -->
+                        <div class="service-card">
+                            <img src="/images/service1.jpg" alt="Подарочные сертификаты" class="service-img">
+                            <h3 class="service-title">Подарочные сертификаты</h3>
+                            <p class="service-text">Широкий выбор сертификатов для любых мероприятий и праздников</p>
+                        </div>
+
+                        <!-- Карточка 2 -->
+                        <div class="service-card">
+                            <img src="/images/service2.jpg" alt="Корпоративные подарки" class="service-img">
+                            <h3 class="service-title">Корпоративные подарки</h3>
+                            <p class="service-text">Специальные условия для бизнеса и программ лояльности</p>
+                        </div>
+
+                        <!-- Карточка 3 -->
+                        <div class="service-card">
+                            <img src="/images/service3.jpg" alt="Электронные сертификаты" class="service-img">
+                            <h3 class="service-title">Электронные сертификаты</h3>
+                            <p class="service-text">Мгновенная доставка по email в любое время суток</p>
+                        </div>
+
+                        <!-- Карточка 4 -->
+                        <div class="service-card">
+                            <img src="/images/service4.jpg" alt="Индивидуальный дизайн" class="service-img">
+                            <h3 class="service-title">Индивидуальный дизайн</h3>
+                            <p class="service-text">Создание уникальных сертификатов с вашим брендом</p>
+                        </div>
+
+                        <!-- Карточка 5 -->
+                        <div class="service-card">
+                            <img src="/images/service5.jpg" alt="Доставка и упаковка" class="service-img">
+                            <h3 class="service-title">Доставка и упаковка</h3>
+                            <p class="service-text">Красивая подарочная упаковка и быстрая доставка</p>
+                        </div>
+
+                        <!-- Карточка 6 -->
+                        <div class="service-card">
+                            <img src="/images/service6.jpg" alt="Консультации" class="service-img">
+                            <h3 class="service-title">Профессиональные консультации</h3>
+                            <p class="service-text">Помощь в выборе идеального подарка для любого случая</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="arrow right" id="services-right" aria-label="Следующие услуги">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contacts-section">
+        <div class="container-section">
+            <h2 class="section-title">Мы находимся</h2>
+            <div class="contacts-content">
+                <div class="contact-info-block">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-item">
+                        <strong>Адрес:</strong>
+                        <p>г. Тирасполь, ул. Примерная, д. 123</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Телефон:</strong>
+                        <p>+373 (533) 123-456</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <p>info@giftcertificates.local</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Режим работы:</strong>
+                        <p>Пн-Пт: 9:00-18:00<br>Сб-Вс: 10:00-16:00</p>
+                    </div>
+
+                    <!-- Кнопка для перехода к форме обратной связи -->
+                    <div style="margin-top: 25px;">
+                        <a asp-controller="Home" asp-action="Contacts" class="btn btn-primary">Написать нам сообщение</a>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <!-- Код карты из Яндекс.Карт -->
+                    <div id="map" style="width: 100%; height: 400px; border-radius: 8px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Подключаем API Яндекс.Карт -->
+<script src="https://api-maps.yandex.ru/2.1/?apikey=ваш_api_ключ&lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+    // Инициализация карты
+    ymaps.ready(init);
+
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [46.8352, 29.6111], // Координаты Тирасполя
+            zoom: 14
+        });
+
+        // Добавляем метку
+        var myPlacemark = new ymaps.Placemark([46.8352, 29.6111], {
+            hintContent: 'GiftCertificates',
+            balloonContent: 'г. Тирасполь, ул. Примерная, д. 123'
+        }, {
+            preset: 'islands#redIcon'
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+</script>
+
+<script src="~/js/home_script.js" asp-append-version="true"></script>
