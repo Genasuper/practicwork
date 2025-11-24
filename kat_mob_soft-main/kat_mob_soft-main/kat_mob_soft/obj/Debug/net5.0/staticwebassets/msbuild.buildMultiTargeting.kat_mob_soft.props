@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\kat_mob_soft.props" />
-</Project>
